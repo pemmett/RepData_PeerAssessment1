@@ -64,12 +64,51 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <p>This is the report required in the first assignment of the Coursera Reproducible course which is part of the Data Science specialization cetification path.</p>
 <div id="load-required-r-libraries." class="section level3">
 <h3>Load required R libraries.</h3>
-<pre class="r"><code>require(dplyr)
-require(plyr)
-require(lubridate)
-require(knitr)
-require(chron)
-require(ggplot2)</code></pre>
+<pre class="r"><code>require(dplyr)</code></pre>
+<pre><code>## Loading required package: dplyr
+## 
+## Attaching package: 'dplyr'
+## 
+## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+## 
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>require(plyr)</code></pre>
+<pre><code>## Loading required package: plyr
+## -------------------------------------------------------------------------
+## You have loaded plyr after dplyr - this is likely to cause problems.
+## If you need functions from both plyr and dplyr, please load plyr first, then dplyr:
+## library(plyr); library(dplyr)
+## -------------------------------------------------------------------------
+## 
+## Attaching package: 'plyr'
+## 
+## The following objects are masked from 'package:dplyr':
+## 
+##     arrange, desc, failwith, id, mutate, summarise, summarize</code></pre>
+<pre class="r"><code>require(lubridate)</code></pre>
+<pre><code>## Loading required package: lubridate
+## 
+## Attaching package: 'lubridate'
+## 
+## The following object is masked from 'package:plyr':
+## 
+##     here</code></pre>
+<pre class="r"><code>require(knitr)</code></pre>
+<pre><code>## Loading required package: knitr</code></pre>
+<pre class="r"><code>require(chron)</code></pre>
+<pre><code>## Loading required package: chron
+## 
+## Attaching package: 'chron'
+## 
+## The following objects are masked from 'package:lubridate':
+## 
+##     days, hours, minutes, seconds, years</code></pre>
+<pre class="r"><code>require(ggplot2)</code></pre>
+<pre><code>## Loading required package: ggplot2</code></pre>
 </div>
 <div id="download-unzip-and-process-the-activity-dataset.-read-.csv-file-into-dataframe." class="section level3">
 <h3>Download, unzip and process the activity dataset. Read .csv file into dataframe.</h3>

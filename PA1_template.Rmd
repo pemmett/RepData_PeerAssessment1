@@ -9,7 +9,7 @@ This is the report required in the first assignment of the
 Coursera Reproducible  course which is part of the Data Science specialization cetification path.
 
 ###Load required R libraries.
-```{r load_libraries,echo=TRUE,message=FALSE,fig.path="figures/",fig.keep='all'}
+```{r load_libraries,echo=TRUE}
 require(dplyr)
 require(plyr)
 require(lubridate)
