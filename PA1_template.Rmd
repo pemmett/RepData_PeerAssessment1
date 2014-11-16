@@ -1,13 +1,13 @@
 ---
 title: "Activity Analysis"
 author: "Paul Emmett"
-date: "October 13, 2014"
+date: "November 16, 2014"
 
 ---
 ## Assignment 1
 This is the report required in the first assignment of the 
 Coursera Reproducible  course which is part of the Data Science specialization cetification path.
-
+November 16, 2014
 ###Load required R libraries.
 ```{r load_libraries,echo=TRUE,fig.path="figures/",fig.keep='all'}
 require(dplyr)
